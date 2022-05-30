@@ -2,6 +2,7 @@ from libpythonpro.spam.enviador_de_email import Enviador
 from libpythonpro.spam.enviador_de_email import EmailInvalido
 import pytest
 
+
 # Teste que verifica se um email está sendo enviado.
 def test_criar_enviador_de_email():
     enviador = Enviador()
